@@ -1,5 +1,11 @@
 # FirstBankAccount
 
+A simple Bank account transaction using GenServer
+
+- Bank account should always return a balance
+- User is able to deposit monies
+- User is able to withdraw monies
+
 **TODO: Create GenServer version
 
 ## Installation
