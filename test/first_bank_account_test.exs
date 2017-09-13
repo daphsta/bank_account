@@ -1,6 +1,5 @@
 defmodule FirstBankAccountTest do
   use ExUnit.Case
-  doctest FirstBankAccount
   alias FirstBankAccount, as: Bank
 
   test 'Initial balance' do

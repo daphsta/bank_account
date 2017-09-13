@@ -8,6 +8,7 @@ defmodule FirstBankAccount do
   end
 
   def handle_event({ :send_balance, pid }, history) do
+    
     Process.send(pid, { :balance, calc_balance(history) }, [])
   end
 
